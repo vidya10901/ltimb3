@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-SnapInstanceName=notepad-plus-plus
+Name=Notepad++
+GenericName=Text Editor
+Comment=Simple and free source code editor.
+Version=8.4.7
+Type=Application
+Terminal=false
+Icon=/snap/notepad-plus-plus/376/usr/share/pixmaps/notepad-plus-plus.png
+Exec=env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/notepad-plus-plus_notepad-plus-plus.desktop /snap/bin/notepad-plus-plus %F
+StartupWMClass=notepad-plus-plus.exe
+Categories=Utility;TextEditor
+MimeType=text/plain;text/css;text/html;text/x-c++hdr;text/x-c++src;text/x-chdr;text/x-java;text/x-makefile;text/x-python;text/x-sh;application/x-wine-extension-ini;application/x-wine-extension-inf;
+
